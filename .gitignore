@@ -1,6 +1,12 @@
 node_modules/
 .env
 .env.*
+!.env.example
 dist/
 build/
 .DS_Store
+
+# Migration backups & local parity test runner (contains local DB data & test credentials)
+database/backup_before_migration.sql
+tests_parity.cjs
+
