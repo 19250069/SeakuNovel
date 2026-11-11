@@ -1,0 +1,26 @@
+2026-08-24T08:35:12.654Z LIST_NOVEL_REVIEWS Error: Incorrect arguments to mysqld_stmt_execute
+    at query (file:///D:/Laragon/laragon/www/SeakuNovel/server/config/db.js:15:29)
+    at getReviewsByNovel (file:///D:/Laragon/laragon/www/SeakuNovel/server/models/review.js:66:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async listNovelReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/controllers/reviewController.js:46:20)
+2026-08-24T08:42:20.667Z GET_REVIEWS_BY_NOVEL params=["83c2f65f-4961-49c3-b207-02562be214aa",20,0]
+2026-08-24T08:42:20.670Z LIST_NOVEL_REVIEWS Error: Incorrect arguments to mysqld_stmt_execute
+    at query (file:///D:/Laragon/laragon/www/SeakuNovel/server/config/db.js:15:29)
+    at getReviewsByNovel (file:///D:/Laragon/laragon/www/SeakuNovel/server/models/review.js:70:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async listNovelReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/controllers/reviewController.js:46:20)
+2026-08-24T08:45:30.542Z LIST_REVIEWS Error: Incorrect arguments to mysqld_stmt_execute
+    at query (file:///D:/Laragon/laragon/www/SeakuNovel/server/config/db.js:15:29)
+    at getReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/models/review.js:34:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async listReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/controllers/reviewController.js:20:20)
+2026-08-24T08:45:31.469Z LIST_REVIEWS Error: Incorrect arguments to mysqld_stmt_execute
+    at query (file:///D:/Laragon/laragon/www/SeakuNovel/server/config/db.js:15:29)
+    at getReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/models/review.js:34:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async listReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/controllers/reviewController.js:20:20)
+2026-09-12T03:28:40.567Z LIST_REVIEWS Error: Incorrect arguments to mysqld_stmt_execute
+    at query (file:///D:/Laragon/laragon/www/SeakuNovel/server/config/db.js:15:29)
+    at getReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/models/review.js:34:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async listReviews (file:///D:/Laragon/laragon/www/SeakuNovel/server/controllers/reviewController.js:17:20)

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8b5cf6" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0d0e15"/>
+  <path d="M14 20C14 17.7909 15.7909 16 18 16H28C30.2091 16 32 17.7909 32 20V46C32 44.5 30.5 43 28 43H18C15.7909 43 14 44.5 14 46V20Z" fill="url(#brandGrad)" opacity="0.9"/>
+  <path d="M50 20C50 17.7909 48.2091 16 46 16H36C33.7909 16 32 17.7909 32 20V46C32 44.5 33.5 43 36 43H46C48.2091 43 50 44.5 50 46V20Z" fill="url(#brandGrad)" opacity="0.75"/>
+  <path d="M32 18V45" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="32,24 34,29 39,30 35,34 36,39 32,36 28,39 29,34 25,30 30,29" fill="#fbbf24" filter="url(#glow)"/>
+</svg>
